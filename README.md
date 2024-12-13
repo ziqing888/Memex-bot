@@ -40,6 +40,18 @@ npm install
 ```
 ###  准备 hash.txt
 将用户的 query_id 保存到项目根目录下的 hash.txt 文件中，每行一个，示例如下：
+🔑 配置 QueryID
+项目需要 queryIds（用户标识符）文件来模拟用户操作。请在项目目录中创建一个 queries.txt 文件
+
+🔑 获取 QueryID
+如果你在使用 Telegram WebApp，可以通过以下步骤获取 QueryID：
+
+打开你的 Telegram WebApp。
+按 F12 打开开发者工具，切换到 Console 面板。
+输入以下命令以获取 initData：
+```
+copy(Telegram.WebApp.initData)
+```
 ```
 user=eyJ1c2VybmFtZSI6InVzZXIxMjMiLCJpZCI6MTIzfQ==
 user=eyJ1c2VybmFtZSI6InVzZXIyMzQiLCJpZCI6MjM0fQ==
