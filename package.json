@@ -1,0 +1,26 @@
+{
+  "name": "memex-bot",
+  "version": "1.0.0",
+  "description": "用于自动签到和 SBT 领取的 Memex Bot 脚本。",
+  "main": "bot.js", 
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "chalk": "^2.4.2",
+    "random-useragent": "^0.5.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "keywords": [
+    "memex",
+    "签到",
+    "自动化",
+    "sbt",
+    "机器人"
+  ],
+  "author": "子清",
+  "license": "MIT"
+}
