@@ -3,8 +3,14 @@ const axios = require('axios');
 const querystring = require('querystring');
 const randomUseragent = require('random-useragent');
 const chalk = require('chalk');
+/**
+ * 📢 电报频道：https://t.me/ksqxszq
+ *
+ * 免責聲明：
+ * 此机器人仅用于教育目的。使用风险自负。
+ * 开发人员不对因使用此机器人而导致的任何帐户封禁或处罚负责。
+ */
 
-// 配置常量
 const CONFIG = {
   BASE_URL: "https://memex-preorder.memecore.com",
   SLEEP_INTERVAL: 12 * 60 * 60 * 1000, // 每 12 小时
