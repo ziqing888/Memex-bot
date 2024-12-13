@@ -39,7 +39,7 @@ cd Memex-bot
 npm install
 ```
 ###  准备 hash.txt
-将用户的 query_id 保存到项目根目录下的 hash.txt 文件中，每行一个，示例如下：
+将用户的 query_id 保存到项目根目录下的 hash.txt 文件中，每行一个
 🔑 配置 QueryID
 项目需要 queryIds（用户标识符）文件来模拟用户操作。请在项目目录中创建一个 queries.txt 文件
 
@@ -52,9 +52,10 @@ npm install
 ```
 copy(Telegram.WebApp.initData)
 ```
+示例如下：
 ```
-user=eyJ1c2VybmFtZSI6InVzZXIxMjMiLCJpZCI6MTIzfQ==
-user=eyJ1c2VybmFtZSI6InVzZXIyMzQiLCJpZCI6MjM0fQ==
+query_id=...&user=%7B%22username%22%3A%22Alexyamin%22%7D&...
+
 ```
 运行脚本
 ```
